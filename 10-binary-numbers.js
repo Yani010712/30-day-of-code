@@ -7,14 +7,14 @@ function main() {
     for(let i = 0; i  < arr.length; i++) { 
         if (arr[i]== 1){
             count++; 
-        } else {
-            if(count > maxCount){
-                maxCount = count;
-            } 
+                if(count > maxCount){
+                    maxCount = count;
+                } 
+            } else {
                 count =0;
-
-            }  
-    }
-      console.log(maxCount);
+            }
+                
+    }  
+    console.log(maxCount);
 }
    
