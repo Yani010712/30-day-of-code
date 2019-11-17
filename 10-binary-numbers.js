@@ -7,6 +7,7 @@ function main() {
     for(let i = 0; i  < arr.length; i++) { 
         if (arr[i]== 1){
             count++; 
+<<<<<<< HEAD
                 if(count > maxCount){
                     maxCount = count;
                 } 
@@ -16,5 +17,16 @@ function main() {
                 
     }  
     console.log(maxCount);
+=======
+        } else {
+            if(count > maxCount){
+                maxCount = count;
+            } 
+                count =0;
+
+            }  
+    }
+      console.log(maxCount);
+>>>>>>> bcaceca9a4cd3bf4ff90a50e11af54c3ae1e656e
 }
    
